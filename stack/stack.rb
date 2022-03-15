@@ -16,4 +16,8 @@ class Stack
     @data.pop
   end
 
+  def empty
+    @data == []
+  end
+
 end
