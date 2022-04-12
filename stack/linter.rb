@@ -6,10 +6,6 @@ class Linter
     @stack = Stack.new
   end
 
-  #([{}])
-  #([{
-  #}])
-
   # def lint(code)
   #   code.each_char do |char|
   #     if char == '{'
